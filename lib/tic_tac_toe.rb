@@ -116,9 +116,9 @@ def play(board)
   while i <= 9
   turn(board)
   i +=1
-  if player % 2 == 0
-    current_player = "O"
-    player += 1
+    if player % 2 == 0
+      current_player = "O"
+      player += 1
+    end
   end
-end
 end
