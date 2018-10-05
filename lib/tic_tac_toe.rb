@@ -116,5 +116,5 @@ end
 
 def play(board)
   index = gets.strip
-  won?(board) || draw?(board)
+  won?(board) || draw?(board) || full?(board)
 end
