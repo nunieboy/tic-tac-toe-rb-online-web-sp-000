@@ -115,4 +115,5 @@ end
 
 
 def play(board)
+  index = gets.strip
 end
