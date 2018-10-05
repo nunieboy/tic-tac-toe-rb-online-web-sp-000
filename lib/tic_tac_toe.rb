@@ -109,9 +109,3 @@ def winner(board)
     board[position[0]]
   end
 end
-
-
-
-
-
-
